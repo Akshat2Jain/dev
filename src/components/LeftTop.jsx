@@ -3,7 +3,6 @@ import { RiLineChartLine, RiHashtag } from "react-icons/ri";
 const LeftTop = () => {
   return (
     <>
-      <div className="flex flex-row" >
         <div className="bg-primary-100 p-8 rounded-xl text-gray-300 flex flex-col gap-6">
           <RiLineChartLine className="text-5xl" />
           <h4 className="text-2xl">Your Current Streak</h4>
@@ -11,9 +10,9 @@ const LeftTop = () => {
           <span className="py-1 px-3 bg-primary-300/80 rounded-full">
             + 10% since last month
           </span>
-        </div>
-        {/* Card 2 */}
-        <div className="p-4 bg-white rounded-xl flex flex-col justify-between gap-4 drop-shadow-2xl">
+          </div>
+          {/* Card 2 */}
+         <div className="p-4 bg-white rounded-xl flex flex-col justify-between gap-4 drop-shadow-2xl">
           <div className="flex items-center gap-4 bg-primary-100/10 rounded-xl p-4">
             <span className="bg-primary-100 text-gray-300 text-2xl font-bold p-4 rounded-xl">
               40
@@ -50,7 +49,7 @@ const LeftTop = () => {
               Branding
             </span>
           </div>
-        </div> */}
+          </div> */}
           <div className="flex items-center gap-4 bg-green-100 rounded-xl p-4">
             <span className="bg-green-500 text-green-300 text-2xl font-bold p-4 rounded-xl">
               30
@@ -61,7 +60,6 @@ const LeftTop = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

@@ -5,7 +5,6 @@ import bronze from "../assets/bronze.png";
 const RightTop = () => {
   return (
     <>
-      <div>
         <div className="col-span-1 md:col-span-2 flex flex-col justify-between">
           <h1 className="text-2xl font-bold mb-8">Your Achievements 🤩</h1>
           <div className="bg-white p-8 rounded-xl shadow-2xl">
@@ -59,7 +58,6 @@ const RightTop = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };

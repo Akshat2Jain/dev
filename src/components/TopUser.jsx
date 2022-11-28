@@ -4,10 +4,8 @@ import RightTop from "./RightTop";
 const TopUser = () => {
   return (
     <>
-      <div>
         {/* Left Top Side */}
         <LeftTop />
-      </div>
       {/* Right Upper side  */}
       <RightTop />
     </>
