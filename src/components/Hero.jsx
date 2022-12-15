@@ -9,8 +9,8 @@ const Hero = () => {
   const { loginWithRedirect, isAuthenticated, logout, user,isLoading } = useAuth0();
   if (isLoading) {
     return <>
-      <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between">
-          <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
+      <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between dark:bg-gray-900">
+          <div className="grid md:grid-cols-2 max-w-[1240px] m-auto dark:bg-gray-900">
             <Loader/>
             </div></div>
     </>;
@@ -33,17 +33,17 @@ const Hero = () => {
             </button>
             </div>
           </div> */}
-          <div className="w-full h-screen py-24 bg-zinc-200 flex flex-col justify-between">
+          <div className="w-full h-screen py-24 bg-zinc-200 flex flex-col justify-between dark:bg-gray-900">
           <Dashboard user={user} logout={logout}/>
           </div>
           
         </>
       ) : (
         <>
-          <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between">
+          <div className="w-full h-screen bg-zinc-200 flex flex-col justify-between dark:bg-gray-700">
             <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
               <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
-                <div className="flex flex-col justify-center  md:items-start w-96 px-2 py-8  bg-zinc-300 drop-shadow-lg rounded-lg">
+                <div className="flex flex-col justify-center  md:items-start w-96 px-2 py-8  bg-zinc-300 drop-shadow-lg rounded-lg dark:bg-gray-500">
                   <p className="text-2xl text-center font-serif">
                     Sign In to Start Your
                   </p>
