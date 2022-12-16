@@ -1,24 +1,22 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.png";
+import Switcher from "./Switcher";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState(false);
-  const handleTheme = () => {
-    setTheme(!theme);
-  };
+  
   return (
-    <div className="w-screen h-[80px]  bg-zinc-300 fixed drop-shadow-lg z-[1000]">
-      <div className="px-1 flex justify-between items-center w-full h-full">
+    <div className="w-screen h-[80px]  bg-zinc-300 fixed drop-shadow-lg z-[1000] dark:bg-gray-900 ">
+      <div className="px-1 flex justify-between items-center w-full h-full ">
         <div className="flex items-center">
           <img src={Logo} alt="/" className="p-10 h-32 sm:h-36" />
-          <h1 className="text-3xl font-bold mr-4 font-serif sm:text-4xl">
-            NamasteDev
+          <h1 className="text-3xl font-bold mr-4 font-serif sm:text-4xl dark:text-white">
+            NamasteDev 
           </h1>
 
         </div>
-        <div onClick={handleTheme} className="cursor-pointer px-16  ">
-        
-          {theme ? (
+        <div  className="px-16">
+        <Switcher />
+          {/* {theme ? (
             <>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +50,7 @@ const Navbar = () => {
                 />
               </svg>
             </>
-          )}
+          )} */}
         </div>
       </div>
     </div>
