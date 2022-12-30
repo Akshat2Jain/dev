@@ -15,7 +15,7 @@ const Sidebar = ({user,logout}) => {
   return (
     <>
       <div
-        className={`bg-primary-900 h-full fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all z-50 duration-300 ${
+        className={`bg-primary-900 h-full fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all z-50 duration-300 dark:bg-gray-700 ${
           showMenu ? "left-0" : "-left-full"
         }`}
       >
@@ -34,7 +34,7 @@ const Sidebar = ({user,logout}) => {
           </button>
         </div>
         {/* Nav */}
-        <div className="bg-indigo-900 p-8 rounded-tr-[100px] h-[70vh] overflow-y-scroll flex flex-col justify-between gap-8">
+        <div className="bg-indigo-900 p-8 rounded-tr-[100px] h-[70vh] overflow-y-scroll flex flex-col justify-between gap-8 ">
           <nav className="flex flex-col gap-8">
             <a
               href="#"

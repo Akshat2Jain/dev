@@ -1,13 +1,10 @@
 import React from 'react'
-import LeftTop from '../components/LeftTop'
-import RightTop from '../components/RightTop'
 
+import Hero from '../components/Hero'
 const Home = () => {
   return (
     <>
-    {/* <Hero/> */}
-    <LeftTop />
-    <RightTop />
+   <Hero />
     </>
   )
 }
