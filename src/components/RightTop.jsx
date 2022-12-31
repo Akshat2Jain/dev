@@ -5,7 +5,7 @@ import bronze from "../assets/bronze.png";
 const RightTop = () => {
   return (
     <>
-        <div className="col-span-1 md:col-span-2 flex flex-col justify-between dark:bg-slate-500">
+        <div className="col-span-1 md:col-span-2 flex flex-col justify-between dark:bg-gray-900">
         <h1 className="text-2xl font-bold mb-8 dark:text-white">Your Achievements 🤩</h1>
         <div className="bg-white p-8 rounded-xl shadow-2xl dark:bg-gray-800">
           <div className="flex items-center gap-4 mb-8">
@@ -51,7 +51,7 @@ const RightTop = () => {
           <div className="flex justify-end">
             <a
               href="#"
-              className="hover:text-primary-100 transition-colors hover:underline"
+              className="hover:text-primary-100 transition-colors hover:underline dark:text-white"
             >
               See all Achievements
             </a>

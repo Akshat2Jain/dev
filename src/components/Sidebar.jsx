@@ -15,7 +15,7 @@ const Sidebar = ({user,logout}) => {
   return (
     <>
       <div
-        className={`bg-primary-900 h-full fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all z-50 duration-300 dark:bg-gray-700 ${
+        className={`bg-primary-900 h-full fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all z-50 duration-300 ${
           showMenu ? "left-0" : "-left-full"
         }`}
       >

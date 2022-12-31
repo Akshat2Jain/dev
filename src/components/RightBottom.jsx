@@ -3,8 +3,8 @@ import React from "react";
 const RightBottom = () => {
   return (
     <>
-      <h1 className="text-2xl font-bold mb-8">Recommended  👇</h1>
-      <div className="bg-white p-8 rounded-xl shadow-2xl mb-8 flex flex-col gap-8">
+      <h1 className="text-2xl font-bold mb-8 dark:text-white">Recommended  👇</h1>
+      <div className="bg-white p-8 rounded-xl shadow-2xl mb-8 flex flex-col gap-8 dark:bg-slate-800">
         {/* <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4">
           <div className="flex items-center gap-4">
             <img
@@ -45,7 +45,7 @@ const RightBottom = () => {
           </div>
         </div> */}
         {/* Card 1  */}
-        <div class=" w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div class=" w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-700 dark:border-gray-700">
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-serif">
               A complete roadmap to become a Frontend Devloper 
@@ -75,7 +75,7 @@ const RightBottom = () => {
           </a>
         </div>
         {/* Card 2 */}
-        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-700 dark:border-gray-700">
           <svg
             class="w-10 h-10 mb-2 text-gray-500 dark:text-gray-400"
             aria-hidden="true"

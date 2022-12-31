@@ -5,12 +5,13 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 
+
 const App = () => {
  
   return (
     <>
       <Navbar />
-      <Home/>
+      <Home />
       <Footer />
       
     </>

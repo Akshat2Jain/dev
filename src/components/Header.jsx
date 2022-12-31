@@ -5,8 +5,8 @@ import { RiSearch2Line } from "react-icons/ri";
 const Header = ({ user }) => {
   return (
     <header className="flex flex-col md:flex-row items-center justify-between gap-4">
-    <h1 className="text-2xl md:text-3xl font-bold">
-    🙏 Namaste, <span className="text-primary-100">{user.name}</span>
+    <h1 className="text-2xl md:text-3xl font-bold dark:text-white ">
+    🙏 Namaste, <span className="text-primary-100 ">{user.name}</span>
     </h1>
     <form className="w-full md:w-auto">
       <div className="relative">

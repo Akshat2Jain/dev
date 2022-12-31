@@ -3,7 +3,7 @@ import { RiLineChartLine, RiHashtag } from "react-icons/ri";
 const LeftTop = () => {
   return (
     <>
-           <div className="bg-primary-100 p-8 rounded-xl text-gray-300 flex flex-col gap-6 dark:rounded-none dark:bg-gray-600">
+           <div className="bg-primary-100 p-8 rounded-xl text-gray-300 flex flex-col gap-6  dark:bg-gray-800 dark:rounded-xl">
         <RiLineChartLine className="text-5xl" />
         <h4 className="text-2xl">Your Current Streak</h4>
         <span className="text-5xl text-white">10 Days</span>
@@ -13,12 +13,12 @@ const LeftTop = () => {
       </div>
       {/* Card 2 */}
       <div className="p-4 bg-white rounded-xl flex flex-col justify-between gap-4 drop-shadow-2xl dark:bg-slate-900 dark:rounded-none">
-        <div className="flex items-center gap-4 bg-primary-100/10 rounded-xl p-4 dark:bg-white">
+        <div className="flex items-center gap-4 bg-primary-100/10 rounded-xl p-4 dark:bg-gray-800">
           <span className="bg-primary-100 text-gray-300 text-2xl font-bold p-4 rounded-xl">
             40
           </span>
           <div>
-            <h3 className="font-bold">Questions Solved</h3>
+            <h3 className="font-bold dark:text-white">Questions Solved</h3>
             <p className="text-gray-500">Till Now</p>
           </div>
         </div>

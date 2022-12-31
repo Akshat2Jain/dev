@@ -1,0 +1,17 @@
+[
+    {
+     "QNo":1,
+     "Question":"How can you create an Array in JavaScript?",
+     "tag":"Easy"
+    },
+    {
+     "QNo":2,
+     "Question":"Explain what is Hoisting in Javascript?",
+     "tag":"Hard"
+    },
+    {
+     "QNo":3,
+     "Question":"Why do we need Promises?",
+     "tag":"Medium"
+    }
+]
