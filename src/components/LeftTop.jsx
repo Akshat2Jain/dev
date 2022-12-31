@@ -12,8 +12,8 @@ const LeftTop = () => {
         </span>
       </div>
       {/* Card 2 */}
-      <div className="p-4 bg-white rounded-xl flex flex-col justify-between gap-4 drop-shadow-2xl dark:bg-slate-900 dark:rounded-none">
-        <div className="flex items-center gap-4 bg-primary-100/10 rounded-xl p-4 dark:bg-gray-800">
+      <div className="p-4 bg-white rounded-xl flex flex-col justify-between gap-4 drop-shadow-2xl dark:bg-slate-800 dark:rounded-none ">
+        <div className="flex items-center gap-4 bg-primary-100/10 rounded-xl p-4 dark:bg-gray-800 ">
           <span className="bg-primary-100 text-gray-300 text-2xl font-bold p-4 rounded-xl">
             40
           </span>
