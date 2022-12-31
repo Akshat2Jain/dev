@@ -34,7 +34,7 @@ const Sidebar = ({user,logout}) => {
           </button>
         </div>
         {/* Nav */}
-        <div className="bg-indigo-900 p-8 rounded-tr-[100px] h-[70vh] overflow-y-scroll flex flex-col justify-between gap-8">
+        <div className="bg-indigo-900 p-8 rounded-tr-[100px] h-[70vh] overflow-y-scroll flex flex-col justify-between gap-8 ">
           <nav className="flex flex-col gap-8">
             <a
               href="#"
