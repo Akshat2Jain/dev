@@ -11,7 +11,7 @@ const LeftBottom = () => {
         <div className="bg-white p-8 rounded-xl shadow-2xl mb-8 flex flex-col gap-8 dark:bg-slate-800">
           {data.map((e) => {
             return (
-              <div className="flex xl:grid-cols-4 items-center justify-around gap-4 mb-4 drop-shadow-lg rounded-lg bg-zinc-100 h-28 hover:cursor-pointer hover:bg-zinc-200 dark:bg-gray-700">
+              <div className="flex xl:grid-cols-4 items-center justify-around gap-4 mb-4 drop-shadow-lg rounded-lg bg-zinc-100 h-28 hover:cursor-pointer hover:bg-zinc-200 dark:bg-gray-700 dark:hover:bg-gray-600">
                 <div className="col-span-2 flex items-center  gap-4">
                   <h1 className="dark:text-white">Q{e.QNo}</h1>
                   <div>
